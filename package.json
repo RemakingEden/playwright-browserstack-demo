@@ -14,7 +14,7 @@
     "local-test": "npx playwright test",
     "local-ui-test": "npx playwright test --ui",
     "browserstack-test": "npx browserstack-node-sdk playwright test",
-    "browserstack-ci-test": "npx browserstack-node-sdk playwright test --config browserstack.ci.yml"
+    "browserstack-ci-test": "BROWSERSTACK_CONFIG_FILE=browserstack.ci.yml npx browserstack-node-sdk playwright test"
   },
   "dependencies": {
     "browserstack-node-sdk": "^1.33.6"
