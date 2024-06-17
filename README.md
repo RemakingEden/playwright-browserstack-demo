@@ -53,7 +53,7 @@ npm run browserstack-test
 
 ## GitHub Actions
 
-This repository includes a GitHub Action that runs the tests both locally and on BrowserStack. The workflow is defined in the `.github/workflows/main.yml` file.
+This repository includes a GitHub Action that runs the tests both locally and on BrowserStack. The workflows are defined in the `.github/workflows` folder.
 
 ## Contributing
 
