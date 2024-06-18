@@ -1,4 +1,4 @@
-# Playwright Demo
+# Playwright Browserstack Demo
 
 This repository is a functional test framework using Playwright and BrowserStack with Node.js. It utilises the Page Object Model to run 2 basic tests of the login functionality at [https://www.saucedemo.com/](https://www.saucedemo.com/). The tests run on Firefox, Safari, and Chrome locally, and on additional devices through BrowserStack.
 
